@@ -15,37 +15,37 @@ const projectData = [
   {
     title: "Weather App",
     description: "A weather forecasting app using OpenWeatherMap API.",
-    image: "src/assets/weather.png",
+    image: "/assets/weather.png",
     github: "https://github.com/Dineshkumarr54/Weather-App",
   },
   {
     title: "QR Generator",
     description: "A simple QR code generator built with React.",
-    image: "src/assets/QrGenerator.png",
+    image: "/assets/QrGenerator.png",
     github: "https://github.com/Dineshkumarr54/QR_Generator",
   },
   {
     title: "Spotify Clone",
     description:  "A responsive static Spotify landing page built using HTML and CSS.",
-    image: "src/assets/spotify-clone.png",
+    image: "/assets/spotify-clone.png",
     github: "https://github.com/Dineshkumarr54/Spotify",
   },
     {
     title: "Netflix Clone",
     description: "A static Netflix homepage clone designed with pure HTML and CSS.",
-    image: "src/assets/netflix-clone.png",
+    image: "/assets/netflix-clone.png",
     github: "https://github.com/Dineshkumarr54/Netflix"
   },
   {
     title: "Digital Clock",
     description: "A minimal digital clock web app.",
-    image: "src/assets/digital-clock.png",
+    image: "/assets/digital-clock.png",
     github: "https://github.com/Dineshkumarr54/Digital-Clock",
   },
   {
     title: "Booksky Project",
     description: "An online book library application.",
-    image: "src/assets/booksky.png",
+    image: "/assets/booksky.png",
     github: "https://github.com/Dineshkumarr54/Booksky",
   },
 ];

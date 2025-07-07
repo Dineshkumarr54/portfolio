@@ -1,6 +1,6 @@
 import './Home.css';
 import { motion } from 'framer-motion';
-import profileImg from '../assets/profile.jpg';
+import profileImg from '/assets/profile.jpg';
 
 function Home() {
   return (
@@ -46,7 +46,7 @@ function Home() {
         transition={{ delay: 1.3, duration: 1 }}
       >
         <a href="#projects" className="btn btn-primary">View Projects</a>
-        <a href="src/assets/resume.pdf" className="btn btn-outline-primary" target="_blank" rel="noopener noreferrer">Download Resume</a>
+        <a href="/assets/resume.pdf" className="btn btn-outline-primary" target="_blank" rel="noopener noreferrer">Download Resume</a>
       </motion.div>
     </div>
   );
