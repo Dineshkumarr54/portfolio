@@ -1,0 +1,33 @@
+.footer-container {
+  background-color: #fff; /* Subtle different background for light mode */
+  border-top: 1px solid #ddd;
+  text-align: center;
+  color: #000;
+}
+
+.footer-social a {
+  color: #333;
+  transition: transform 0.3s ease, color 0.3s ease;
+  font-size: 1.2rem;
+  margin: 0 0.5rem;
+}
+
+.footer-social a:hover {
+  transform: scale(1.2);
+  color: #0d6efd;
+}
+
+/* Dark mode styles */
+body.dark-mode .footer-container {
+  background-color: #1e1e1e;
+  color: #f1f1f1;
+  border-top: 1px solid #333;
+}
+
+body.dark-mode .footer-social a {
+  color: #fff;
+}
+
+body.dark-mode .footer-social a:hover {
+  color: #0d6efd;
+}

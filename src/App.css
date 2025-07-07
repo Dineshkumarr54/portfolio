@@ -1,0 +1,70 @@
+/* Global Styles */
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #fff;
+  color: #000;
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+body.dark-mode {
+  background-color: #121212;
+  color: #f1f1f1;
+}
+
+/* Section Styles */
+section {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0;
+  margin: 0;
+}
+
+/* Home Section */
+#home {
+  background-color: #f8f9fa;
+}
+
+/* About Section */
+#about {
+  background-color: #f0f2f5;
+}
+
+body.dark-mode #about {
+  background-color: #222;
+}
+
+/* Projects Section */
+#projects {
+  background-color: #fff;
+}
+
+body.dark-mode #projects {
+  background-color: #1a1a1a;
+}
+
+/* Contact Section */
+#contact {
+  background-color: #f0f2f5;
+}
+
+body.dark-mode #contact {
+  background-color: #121212;
+}
+
+/* Smooth Transitions */
+#home, 
+#about, 
+#projects, 
+#contact {
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+html {
+  scroll-behavior: smooth;
+}
