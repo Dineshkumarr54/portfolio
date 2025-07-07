@@ -1,12 +1,93 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 💼 Personal Portfolio - Dinesh Kumar
 
-Currently, two official plugins are available:
+This is my **responsive personal portfolio website** built using **React.js**, **Bootstrap**, and modern technologies. It showcases my projects, skills, and ways to get in touch.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[🌐 Live Demo on Vercel](https://dineshkumarr.vercel.app)  
+[📩 Contact Me](mailto:dineshkumarr0518@gmail.com)  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Features
+
+✅ Fully responsive design (desktop, tablet, mobile)  
+✅ Light & Dark mode toggle  
+✅ Smooth scroll navigation with active section highlight  
+✅ Projects showcased with image carousel  
+✅ Contact form integrated with EmailJS  
+✅ Clean, modern UI with animations using Framer Motion  
+
+---
+
+## 🛠️ Tech Stack
+
+- **React.js**  
+- **Bootstrap 5**  
+- **Framer Motion**  
+- **EmailJS**  
+- **HTML, CSS, JavaScript**  
+
+---
+
+## 📁 Project Structure
+
+```
+portfolio/
+├── public/
+│   └── assets/         # Project images & icons
+├── src/
+│   ├── components/     # Reusable components (Navbar, Footer, ProjectCard, etc.)
+│   ├── pages/          # Home, About, Projects, Contact sections
+│   ├── App.jsx
+│   └── App.css
+├── index.html
+└── package.json
+```
+
+---
+
+## 📸 Screenshots
+
+| Desktop View | Mobile View |
+|--------------|-------------|
+| ![Desktop View](https://dineshkumarr.vercel.app/desktop.png) | ![Mobile View](https://dineshkumarr.vercel.app/mobile.png) |
+
+---
+
+## ✨ How to Run Locally
+
+```bash
+git clone https://github.com/your-username/portfolio.git
+cd portfolio
+npm install
+npm run dev
+```
+
+Visit `http://localhost:5173` to view the project.
+
+---
+
+## 🌎 Deployment
+
+The project is deployed on **Vercel**:  
+[https://dineshkumarr.vercel.app](https://dineshkumarr.vercel.app)
+
+---
+
+## 📬 Contact
+
+Feel free to reach out via [Email](mailto:dineshkumarr0518@gmail.com) or connect on [LinkedIn](https://www.linkedin.com/in/dineshkumarr5431/).
+
+---
+
+## ⭐ Acknowledgements
+
+- Inspired by modern portfolio designs  
+- React community for awesome tools  
+- [EmailJS](https://www.emailjs.com/) for simple form handling  
+
+---
+
+## 📝 License
+
+This project is for personal portfolio purposes. Feel free to explore the code.
