@@ -34,7 +34,13 @@ const projectData = [
     title: "Netflix Clone",
     description: "A static Netflix homepage clone designed with pure HTML and CSS.",
     image: "/assets/netflix-clone.png",
-    github: "https://github.com/Dineshkumarr54/Netflix"
+    github: "https://github.com/Dineshkumarr54/Netflix_Clone.git"
+  },
+  {
+    title: "Password Generator",
+    description: "A simple password generator with customizable options.",
+    image: "/assets/password-generator.png",
+    github: "https://github.com/Dineshkumarr54/PasswordGenerator.git",
   },
   {
     title: "Digital Clock",

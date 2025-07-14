@@ -2,7 +2,8 @@
 import "./About.css";
 import { motion } from "framer-motion";
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaBootstrap, FaJava } from "react-icons/fa";
-import { SiMysql } from "react-icons/si";
+import { SiMysql, SiSpringboot, SiApachemaven} from "react-icons/si";
+
 
 function About() {
   return (
@@ -57,6 +58,14 @@ function About() {
         <div className="tech-item">
           <SiMysql className="tech-icon" style={{ color: "#00758F" }} />
           <p>MySQL</p>
+        </div>
+        <div className="tech-item">
+          <SiSpringboot className="tech-icon" style={{ color: "#6DB33F" }} />
+          <p>SpringBoot</p>
+        </div>
+        <div className="tech-item">
+          <SiApachemaven className="tech-icon" style={{ color: "#6DB33F" }} />
+          <p>Maven</p>
         </div>
       </motion.div>
     </div>
